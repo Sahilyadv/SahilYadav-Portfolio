@@ -47,13 +47,8 @@ My personal portfolio website showcasing my skills, projects and contact informa
 - Mobile, tablet and desktop support
 
 📞 Contact
-Sahil Yadav
-sahilyad4567@gmail.com
-
+- Sahil Yadav
 - GitHub: [SahilYadav](https://github.com/)
-- LinkedIn: Add your LinkedIn profile here
-- Email: Add your email here
+- Email:sahilyad4567@gmail.com
 
----
-
-⭐ If you like this portfolio, feel free to explore the repository.
+If you like this portfolio, feel free to explore the repository.
