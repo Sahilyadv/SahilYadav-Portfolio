@@ -1,4 +1,123 @@
 /* ===============================
+   RESPONSIVE PORTFOLIO FIX
+================================ */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Prevent horizontal overflow */
+.container,
+.container-fluid,
+.row {
+    max-width: 100%;
+}
+
+/* Sections */
+section {
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Text */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    overflow-wrap: break-word;
+}
+
+/* ===============================
+   MOBILE
+================================ */
+
+@media (max-width: 576px) {
+
+    .container {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 27px;
+    }
+
+    h3 {
+        font-size: 23px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* ===============================
+   TABLET
+================================ */
+
+@media (min-width: 577px) and (max-width: 991px) {
+
+    .container {
+        width: 100%;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* ===============================
+   LAPTOP / DESKTOP
+================================ */
+
+@media (min-width: 992px) {
+
+    .container {
+        max-width: 1140px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+
+
+/* ===============================
    Google Font
 ================================ */
 
